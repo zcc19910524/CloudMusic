@@ -1,3 +1,4 @@
+@mainColor: rgba(204,51,43,.88);
 *,:before,:after{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -17,15 +18,101 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 a{
   text-decoration: none;
 }
+input{
+  outline: none;
+  border:none;
+}
 .iconfont{
-  font-size: 4rem;
+  font-size: 1.6rem;
 }
 //Nav
 .Nav{
-  display: flex;
+  padding-top: .3rem;
+  padding-bottom: .1rem;
+  position: fixed;
+  bottom: 0;
   width:100%;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  background-color: rgba(51,51,51,.8);
+  ul{
+    display: flex;
+  }
   li{
-    float: left;
+    flex: 1;
+    &:hover{
+      a{
+        color: rgb(255,255,255);
+      }
+    }
+    a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: rgb(216,216,216);
+      &.active{
+        color: #ffffff;
+      }
+    }
+  }
+}
+//container
+.container{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+//header
+.header{
+  display: flex;
+  background-color: @mainColor;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  justify-content: space-between;
+  .icon-microphone{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 25px;
+    flex-basis: 16px;
+  }
+  .icon-p7zhengzaibofangzhong{
+    color: #ffffff;
+    margin-right: 15px;
+    margin-left: 25px;
+    flex-basis: 16px;
+  }
+  .search{
+    flex:1;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding-left: 10px;
+    input{
+      height:100%;
+      font-size: 1.6rem;
+    }
+    .icon-fangdajing{
+      margin-right: 5px;
+      color: #aaa;
+    }
+  }
+}
+
+//tab
+.tab{
+  display: flex;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #eeeeee;
+  li {
+    flex:1;
+    position: relative;
+  }
+  a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    line-height: 35px;
   }
 }
