@@ -175,3 +175,31 @@ input{
     }
   }
 }
+
+//PlayList
+.playList{
+  padding-top: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  .title{
+    display: flex;
+    justify-content: space-between;
+    a{
+      display: inline-flex;
+      align-items: center;
+      &.title-left{
+        i{
+          color: @mainColor;
+          margin-right: 5px;
+        }
+        span{
+          font-size: 1.5rem;
+          color: @fontColor;
+        }
+      }
+      &.title-right{
+        color: #666;
+      }
+    }
+  }
+}
