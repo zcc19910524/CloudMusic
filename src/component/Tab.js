@@ -2,7 +2,7 @@
  * Created by zhaochenchen on 2017/3/1.
  */
 import React,{Component} from 'react'
-
+import NavLink from './NavLink'
 
 export default class Tab extends Component{
     render(){
@@ -10,17 +10,17 @@ export default class Tab extends Component{
             <div>
                 <ul className="tab">
                     <li>
-                        <a href="javascript:;">个性推荐</a>
+                        <NavLink to="/" onlyActiveOnIndex={true}>个性推荐</NavLink>
                         <span></span>
                     </li>
                     <li>
-                        <a href="javascript:;">歌单</a>
+                        <NavLink>歌单</NavLink>
                     </li>
                     <li>
-                        <a href="javascript:;">主播电台</a>
+                        <NavLink>主播电台</NavLink>
                     </li>
                     <li>
-                        <a href="javascript:;">排行榜</a>
+                        <NavLink>排行榜</NavLink>
                     </li>
                 </ul>
             </div>
