@@ -12,7 +12,24 @@ const initState={
             introduce:'#科普贴#蛋蛋的忧伤'
         },
         {
-            url:''
+            url:'http://p4.music.126.net/QR9CVlIPgom5Fm2N7HcM6A==/3413983619957313.jpg?param=140y140',
+            introduce:'史上最伟大的100首贝斯伴奏曲（正序歌单）'
+        },
+        {
+            url:'http://p4.music.126.net/ijDP3ZHd-vJwLETPiQKTig==/18779658604231251.jpg?param=140y140',
+            introduce:'国语-幸福滋味「赏味地图_2」'
+        },
+        {
+            url:'http://p3.music.126.net/mrxHF2kLxh9CQRq0TJQiuQ==/109951162862405647.jpg?param=140y140',
+            introduce:'最佳20首风格电音系列|Deep-Tropical House'
+        },
+        {
+            url:'http://p3.music.126.net/rv6UHG7MlDbOr4MyQs96OA==/18632324046044835.jpg?param=140y140',
+            introduce:'《撕夜》'
         }
     ]
 }
+const PlayLists=(state=initState,action)=>{
+    return state
+}
+export default PlayLists

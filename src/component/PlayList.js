@@ -17,7 +17,22 @@ export default class PlayList extends Component{
                         <i className="iconfont icon-jiantouyou"></i>
                     </a>
                 </div>
-                <div></div>
+                <div>
+                    <ul>
+                        {
+                            this.props.playlists.map((item,index)=>{
+                                return(
+                                    <li key={index}>
+                                        <div>
+                                            <img src={item.url}/>
+                                        </div>
+                                        <p></p>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                </div>
             </div>
         )
     }

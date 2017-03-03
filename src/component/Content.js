@@ -4,7 +4,7 @@
 import React,{Component} from 'react'
 import BannerList from './../containers/BannerList'
 import Recommend from './Recommend'
-import PlayList from './PlayList'
+import PlayLists from './../containers/PlayLists'
 
 export default class Content extends Component{
     render(){
@@ -12,7 +12,7 @@ export default class Content extends Component{
             <div className="content">
                 <BannerList/>
                 <Recommend/>
-                <PlayList/>
+                <PlayLists/>
             </div>
         )
     }

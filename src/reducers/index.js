@@ -3,9 +3,11 @@
  */
 import {combineReducers} from 'redux'
 import Banners from './Banners'
+import PlayLists from './PlayLists'
 
 const reducers=combineReducers({
-    Banners
+    Banners,
+    PlayLists
 })
 
 export default reducers
