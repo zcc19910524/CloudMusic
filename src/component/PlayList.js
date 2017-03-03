@@ -21,14 +21,28 @@ export default class PlayList extends Component{
                     <ul>
                         {
                             this.props.playlists.map((item,index)=>{
+                                    return(
+                                        index<3?( <li key={index}>
+                                                <a style={{'backgroundImage':'url('+item.url+')'}}></a>
+                                                <p></p>
+                                            </li>):null
+
+                                    )
+
+                            })
+                        }
+                    </ul>
+                    <ul>
+                        {
+                            this.props.playlists.map((item,index)=>{
                                 return(
-                                    <li key={index}>
-                                        <div>
-                                            <img src={item.url}/>
-                                        </div>
-                                        <p></p>
-                                    </li>
+                                    index>=3&&index<6?( <li key={index}>
+                                            <a style={{'backgroundImage':'url('+item.url+')'}}></a>
+                                            <p></p>
+                                        </li>):null
+
                                 )
+
                             })
                         }
                     </ul>
