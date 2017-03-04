@@ -12,25 +12,25 @@ export default class Nav extends Component{
                     <ul>
                         <li>
                             <NavLink to="/" onlyActiveOnIndex={true}>
-                                <i  className="iconfont icon-4"></i>
+                                <i className="iconfont icon-4"></i>
                                 <span>发现音乐</span>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink>
-                                <i  className="iconfont icon-wodeyinle"></i>
+                            <NavLink to="/MyMusic">
+                                <i className="iconfont icon-wodeyinle"></i>
                                 <span>我的音乐</span>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink>
-                                <i  className="iconfont icon-pengyou"></i>
+                            <NavLink to="/Friends">
+                                <i className="iconfont icon-pengyou"></i>
                                 <span>朋友</span>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink>
-                                <i  className="iconfont icon-wode"></i>
+                            <NavLink to="/Mine">
+                                <i className="iconfont icon-wode"></i>
                                 <span>我的</span>
                             </NavLink>
                         </li>

@@ -10,17 +10,20 @@ export default class Tab extends Component{
             <div>
                 <ul className="tab">
                     <li>
-                        <NavLink to="/" onlyActiveOnIndex={true}>个性推荐</NavLink>
+                        <NavLink to="/FindMusic/Recommend" onlyActiveOnIndex={true}>个性推荐</NavLink>
                         <span></span>
                     </li>
                     <li>
-                        <NavLink>歌单</NavLink>
+                        <NavLink to="/FindMusic/List">歌单</NavLink>
+                        <span></span>
                     </li>
                     <li>
                         <NavLink>主播电台</NavLink>
+                        <span></span>
                     </li>
                     <li>
                         <NavLink>排行榜</NavLink>
+                        <span></span>
                     </li>
                 </ul>
             </div>

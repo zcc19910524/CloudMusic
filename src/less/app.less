@@ -134,6 +134,18 @@ input{
     line-height: 35px;
     &.active{
       color:@mainColor;
+      &+span{
+        content: '';
+        display: block;
+        height: 3px;
+        background-color: @mainColor;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+        width: 80%;
+        margin: 0 auto;
+      }
     }
   }
 }

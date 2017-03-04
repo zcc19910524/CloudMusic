@@ -4,7 +4,7 @@
 const initState={
     banners:[
         {
-            url:'http://p3.music.126.net/vlNsQCbpwyaUJpEU4yhIRw==/18911599997754620.jpg',
+            url:'http://p4.music.126.net/0xgDiwBlQkNo4raaL2jH2A==/19180980346562595.jpg',
         },
         {
             url:'http://p4.music.126.net/Q1rlSBUCOxsK4UBQSypn9Q==/18992963858208387.jpg'

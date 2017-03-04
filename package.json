@@ -4,7 +4,7 @@
   "description": "cloudmusic",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --hot --inline"
+    "start": "webpack-dev-server --watch --hot --inline --history-api-fallback"
   },
   "author": "zhaochenchen",
   "license": "ISC",
