@@ -18,11 +18,11 @@ export default class Tab extends Component{
                         <span></span>
                     </li>
                     <li>
-                        <NavLink>主播电台</NavLink>
+                        <NavLink to="/FindMusic/Radio">主播电台</NavLink>
                         <span></span>
                     </li>
                     <li>
-                        <NavLink>排行榜</NavLink>
+                        <NavLink to="/FindMusic/Ranking">排行榜</NavLink>
                         <span></span>
                     </li>
                 </ul>
