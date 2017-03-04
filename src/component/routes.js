@@ -12,6 +12,7 @@ class Routes extends Component{
             <Router history={browserHistory}>
                 <Route path='/' component={Nav}>
                     <IndexRoute to="/" component={Home}/>
+                    <Route to="/myMusic"/>
                 </Route>
             </Router>
         )

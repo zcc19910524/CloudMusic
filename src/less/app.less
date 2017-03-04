@@ -216,11 +216,19 @@ input{
   ul{
     display: flex;
     justify-content: space-between;
+    margin-bottom:3rem;
     li{
       width: 9.5rem;
       height: 9.5rem;
       a{
         .bg
+      }
+      p{
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
       }
     }
   }
