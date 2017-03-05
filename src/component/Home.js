@@ -3,7 +3,7 @@
  */
 import React,{Component} from 'react'
 import Header1 from './Header1'
-import Tab from './Tab'
+import Tab from './../containers/Tabs'
 
 export default class Home extends Component{
     render(){
