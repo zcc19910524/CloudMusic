@@ -2,6 +2,7 @@
  * Created by zhaochenchen on 2017/3/4.
  */
 import React, {Component} from 'react'
+import AllLists from './../containers/AllLists'
 export default class Lists extends Component{
     render(){
         return(
@@ -10,6 +11,7 @@ export default class Lists extends Component{
                     <span><i className="iconfont icon-shu"></i>全部歌单</span>
                     <span>选择分类</span>
                 </div>
+                <AllLists/>
             </div>
         )
     }
