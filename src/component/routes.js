@@ -11,6 +11,7 @@ import Content from './Content'
 import List from './Lists'
 import Radio from './Radio'
 import Ranking from './Ranking'
+import ListDetail from './ListDetail'
 import {Router,Route,browserHistory,IndexRoute,IndexRedirect} from 'react-router'
 
 class Routes extends Component{
@@ -28,6 +29,7 @@ class Routes extends Component{
                     <Route path="/MyMusic" component={MyMusic}/>
                     <Route path="/Friends" component={Friends}/>
                     <Route path="/Mine" component={Mine}/>
+                    <Route path="/listDetail/:id" component={ListDetail}/>
                 </Route>
             </Router>
         )

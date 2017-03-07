@@ -7,13 +7,15 @@ import PlayLists from './PlayLists'
 import NewAlbums from './NewAlbums'
 import Tabs from './Tabs'
 import AllLists from './AllLists'
+import MyLists from './MyLists'
 
 const reducers=combineReducers({
     Banners,
     PlayLists,
     NewAlbums,
     Tabs,
-    AllLists
+    AllLists,
+    MyLists
 })
 
 export default reducers

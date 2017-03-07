@@ -4,7 +4,7 @@
 import React, {Component} from 'react'
 import Header2 from './header2'
 import Collect from './Collect'
-import MyLists from './MyLists'
+import MyLists from './../containers/MyLists'
 
 export default class MyMusic extends Component{
     render(){
