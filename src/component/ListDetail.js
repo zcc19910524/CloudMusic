@@ -15,6 +15,9 @@ export default class ListDetail extends Component{
                          <i className="iconfont icon-p7zhengzaibofangzhong"></i>
                     </span>
                 </div>
+                <div className="">
+                    <img src="http://p4.music.126.net/Ohm58HJ1VxiGgcPGxMabaQ==/3430476279894539.jpg?param=200y200" alt=""/>
+                </div>
             </div>
         )
     }

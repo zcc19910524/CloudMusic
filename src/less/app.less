@@ -303,11 +303,19 @@ input{
   justify-content: space-between;
   margin-top: .5rem;
     li{
-      width: 14.5rem;
-      height:14.5rem;
-      margin-bottom:3rem;
+      width: 8.625rem;
+      height:8.625rem;
+      margin-bottom:1.5rem;
       a{
         .bg
+      }
+      p{
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        font-size: .5rem;
       }
     }
 }
