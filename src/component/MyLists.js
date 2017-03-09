@@ -17,7 +17,7 @@ export default class MyLists extends Component{
                     {
                         MyLists.map((item,index)=>{
                             return(
-                                <NavLink to={`ListDetail/`+item.id} key={index}>
+                                <NavLink to={`ListDetail/${item.id}`} key={index}>
                                     <div className="list-group">
                                         <img src={item.url}/>
                                         <div>
