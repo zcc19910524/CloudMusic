@@ -12,6 +12,7 @@ import List from './Lists'
 import Radio from './Radio'
 import Ranking from './Ranking'
 import ListDetail from './ListDetail'
+import Playing from './Playing'
 import {Router,Route,browserHistory,IndexRoute,IndexRedirect} from 'react-router'
 
 class Routes extends Component{
@@ -31,6 +32,7 @@ class Routes extends Component{
                     <Route path="/Mine" component={Mine}/>
                     <Route path="/listDetail/:id" component={ListDetail}/>
                 </Route>
+                <Route path="/playing/:songId" component={Playing}/>
             </Router>
         )
     }
