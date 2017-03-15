@@ -4,6 +4,9 @@
 import React, {Component} from 'react'
 
 export default class Playing extends Component{
+    componentWillMount(){
+        const {songs}=this.props
+    }
     render(){
         return(
             <div className="playing">

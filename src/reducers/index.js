@@ -9,6 +9,7 @@ import Tabs from './Tabs'
 import AllLists from './AllLists'
 import MyLists from './MyLists'
 import ListInfos from './ListInfos'
+import Playing from './Playing'
 
 const reducers=combineReducers({
     Banners,
@@ -17,7 +18,8 @@ const reducers=combineReducers({
     Tabs,
     AllLists,
     MyLists,
-    ListInfos
+    ListInfos,
+    Playing
 })
 
 export default reducers
